@@ -146,7 +146,7 @@ h2 {
   background: var(--button);
   color: var(--button-text);
   font-weight: 700;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   transition: transform 0.2s ease;
 }
 
@@ -157,7 +157,7 @@ h2 {
 
 .button.secondary {
   background: transparent;
-  border-color: var(--line);
+  border-color: rgba(255, 255, 255, 0.18);
   color: var(--text);
 }
 
@@ -309,7 +309,7 @@ h2 {
   justify-content: center;
   min-height: 48px;
   padding: 0.75rem 1.1rem;
-  border: 1px solid var(--line);
+  border: 2px solid var(--line);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.02);
 }
