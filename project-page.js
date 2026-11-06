@@ -23,7 +23,10 @@ if (!project) {
   image.className = "project-detail-image";
   image.src = project.image;
   image.alt = project.title;
-  projectContent.append(image);
+  const imageFrame = document.createElement("div");
+  imageFrame.className = "project-detail-image-frame";
+  imageFrame.append(image);
+  projectContent.append(imageFrame);
 
   const copy = document.createElement("div");
   copy.className = "project-detail-copy";
